@@ -1,0 +1,31 @@
+#Notes
+command of TLP
+// for battery
+
+@try this
+sudo tlp true
+sudo tlp false
+
+
+@to start tlp
+sudo tlp start
+
+@to check proper working of tlp  
+sudo tlp-stat -s
+
+@Apply battery settings and change to manual mode:
+sudo tlp bat
+
+@Apply AC settings and change to manual mode:
+sudo tlp ac
+
+@Apply autosuspend mode for all attached USB devices except input and blacklisted devices:
+sudo tlp usb
+
+@Show battery information:
+sudo tlp-stat -b
+sudo tlp-stat --battery
+
+@Show configuration:
+tlp-stat -c
+tlp-stat --config
